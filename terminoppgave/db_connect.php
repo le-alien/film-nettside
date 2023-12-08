@@ -3,7 +3,7 @@
     // Databaseinformasjon
     $server = "localhost";  // Navn på databasetjeneren
     $user = "root";         // Brukernavn for å koble til databasen
-    $pw = "";               // Passord for å koble til databasen
+    $pw = "Admin";               // Passord for å koble til databasen
     $db = "bleh";           // Navnet på den valgte databasen
 
     // Oppretter en tilkobling til databasen ved hjelp av mysqli_connect
