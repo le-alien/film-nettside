@@ -1,0 +1,74 @@
+/* Stilregler for elementet med id "Header" */
+#Header {
+  display: flex;              /* Bruker Flexbox for layout */
+  justify-content: space-between; /* Fordeler plassen mellom elementene */
+  align-items: center;         /* Sentrerer elementene vertikalt */
+  flex-direction: row;         /* Definerer retningen av fleksibel container */
+  z-index: 10;                 /* Stabler elementet over andre elementer på siden */
+}
+
+/* Stilregler for elementet med id "logo" */
+#logo {
+  margin-top: -25vh;           /* Gir en negativ toppmarginal for å justere plasseringen vertikalt */
+  height: 40px;                /* Setter høyden til 40 piksler */
+}
+
+/* Stilregler for elementet med id "stor_logo" */
+#stor_logo {
+  width: 400px;                /* Setter bredden til 400 piksler */
+}
+
+/* Stilregler for elementet med id "tittel" */
+#tittel {
+  margin-bottom: 225px;       /* Setter bunnmarginalen til 225 piksler */
+}
+
+/* Stilregler for elementene i en uordnet liste */
+ul {
+  list-style-type: none;       /* Fjerner punktmerking fra listen */
+  margin-left: -50px;           /* Justerer venstremarginalen negativt */
+  padding: 40px;                /* Legger til polstring */
+  flex-direction: row;          /* Definerer retningen av fleksibel container */
+  margin-bottom: 250px;         /* Setter bunnmarginalen til 250 piksler */
+}
+
+/* Stilregler for hvert listeelement i uordnet listen */
+ul li {
+  display: flex;                /* Bruker Flexbox for layout av hvert listeelement */
+  justify-content: flex-end;    /* Justerer innholdet til høyre */
+  margin: -5px;                 /* Gir en negativ ytre marging */
+  margin-right: 10px;           /* Setter høyremarginalen til 10 piksler */
+  width: max-content;           /* Setter bredden basert på innholdet */
+}
+
+/* Stilregler for lenker i uordnet liste */
+ul a {
+  display: inline-block;        /* Gjør lenkene til blokk-elementer i linje med tekst */
+  padding: 1px 32px;            /* Legger til polstring rundt lenken */
+  text-decoration: none;        /* Fjerner understreking fra lenken */
+  font-size: 20px;              /* Setter skriftstørrelsen til 20 piksler */
+  margin: 4px 2px;              /* Gir en ytre marging */
+  cursor: pointer;              /* Endrer markørens utseende ved hover */
+  font-size: xx-large;          /* Setter skriftstørrelsen til ekstra stor */
+  padding-right: 40px;          /* Setter høyre polstring til 40 piksler */
+  transition-duration: 800ms;   /* Angir varigheten av overgangseffekten */
+}
+
+/* Stilregler for lenker i klasse "knapp" ved hover */
+.knapp a:hover {
+  background-color: black;      /* Endrer bakgrunnsfargen ved hover */
+  box-shadow: 5px 5px 5px black; /* Legger til en boks-skyggeeffekt ved hover */
+  color: white;                 /* Endrer tekstfargen ved hover */
+}
+
+/* Stilregler for elementer med klasse "abc" */
+.abc {
+  background-color: black;      /* Setter bakgrunnsfargen til svart */
+  color: white;                 /* Setter tekstfargen til hvit */
+  box-shadow: 5px 5px 5px black; /* Legger til en boks-skyggeeffekt */
+}
+
+/* Stilregler for elementer med klasse "ab" */
+.ab {
+  color: white;                 /* Setter tekstfargen til hvit */
+}
